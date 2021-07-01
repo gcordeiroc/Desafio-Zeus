@@ -1,0 +1,27 @@
+{
+    "name": "back",
+    "version": "1.0.0",
+    "main": "./src/app.js",
+    "author": "Gabriel Cordeiro <gabriel.cordeiroc03@gmail.com>",
+    "repository": "https://github.com/gcordeiroc/Desafio-Zeus.git",
+    "homepage": "https://github.com/gcordeiroc/Desafio-Zeus/blob/main/README.md",
+    "bugs": "https://github.com/gcordeiroc/Desafio-Zeus/issues",
+    "license": "MIT",
+    "scripts": {
+      "start": "node ./src/app.js",
+      "dev": "nodemon ./src/app.js"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.6"
+    },
+    "dependencies": {
+      "bcrypt": "^5.0.0",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.10.15",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.2"
+    }
+  }
